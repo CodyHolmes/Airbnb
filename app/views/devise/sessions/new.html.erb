@@ -18,11 +18,12 @@
                   <%= link_to "Forgot Password", new_user_password_path %>
               </span>
           </div>
-
-
+          <br /><br />
           <div class="actions">
-            <%= f.submit "Log in", class: "btn btn-primary" %>
+            <%= f.submit "Log in", class: "btn btn-normal btn-block" %>
           </div>
         <% end %>
+        <hr />
+        <%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path, class: "btn btn-facebook btn-block" %>
     </div>
 </div>

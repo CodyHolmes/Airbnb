@@ -2,23 +2,197 @@
 @import "bootstrap";
 @import "toastr";
 
-.avatar_small
-{
-    width: 28px;
+body {
+    color: #565a5c;
+    background-color: #F8F8F8;
+    font-family: "Varela Round", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-.avatar_medium
+a {
+    color: #00A699;
+}
+
+.container {
+    width: 80%;
+}
+
+.text-babu, .icon-babu {
+    color: #00A699;
+}
+
+// NAV BAR
+.navbar-default {
+    background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand {
+    color: #FF5A5F;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+// BUTTONS
+.btn-block {
+    display: block;
+    white-space: normal;
+    width: 100%;
+}
+
+.btn {
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 9px 27px;
+}
+
+.btn-small {
+    padding: 5px 15px;
+    margin-top: 15px;
+}
+
+.btn:hover, .btn:focus {
+    color: #fff;
+}
+
+.btn.btn-default {
+    width: 100%;
+    border-color: #c4c4c4;
+    background: white;
+    color: #484848;
+    border-radius: 2px;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.btn.btn-normal {
+    outline: none;
+    border-color: #ff5a5f;
+    background-color: #ff5a5f;
+}
+
+.btn.btn-normal:active {
+    border: 1px solid #e00007;
+    border-color: #e00007;
+}
+
+.btn.btn-form {
+    outline: none;
+    border-color: #00A699;
+    background-color: #00A699;
+}
+
+.btn.btn-form:active {
+    border: 1px solid #066165;
+    border-color: #066165;
+}
+
+.btn.btn-facebook {
+    outline: none;
+    border-color: #3B5998;
+    background-color: #3B5998;
+}
+
+.btn.btn-facebook:active {
+    border: 1px solid #2d467b;
+    border-color: #2d467b;
+}
+
+// PANELS
+.panel-default .panel-heading {
+    color: #ffffff;
+    background-color: #00A699;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.row-space-1 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.row-space-2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.row-space-3 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.description {
+    color: #575757;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+// AVATAR
+.img-circle {
+    border-radius: 50%;
+}
+
+.avatar-small
+{
+    width: 28px;
+    height: 28px;
+}
+
+.avatar-medium
 {
     width: 48px;
 }
 
-
-.avatar_large
+.avatar_fullarge
 {
     width: 68px;
 }
 
-.avatar_full
+.avatar-full
 {
     width: 100%;
+}
+
+// FORMS
+.form-group
+{
+    margin-bottom:  25px;
+}
+
+.form-control
+{
+    border-radius:  2px;
+    height: 4rem;
+}
+
+// SIDEBAR
+.sidebar-list
+{
+    padding-left: 0;
+    list-style: none;
+}
+
+.sidebar-item
+{
+    padding: 10px 0;
+    font-size: 16px;
+    color: #82888a;
+}
+
+.sidebar-link
+{
+    color: #82888a;
+    text-decoration: none;
+}
+
+.sidebar-link:hover, .sidebar-link:focus,
+{
+    color: #CACCCD;
+    text-decoration: none;
+}
+
+.active.sidebar-link
+{
+    color: #565A5C;
+    font-weight: bold;
+    text-decoration: none;
 }
