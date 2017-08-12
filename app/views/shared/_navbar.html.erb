@@ -23,8 +23,8 @@
                 <%= current_user.fullname %> <span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
-              <li><a href="#">Manage Listings</a></li>
-              <li><a href="#">List Your Space</a></li>
+              <li><%= link_to "Manage Listing", rooms_path %></li>
+              <li><%= link_to "List Your Space", new_room_path %></li>
               <li><a href="#">Your Reservations</a></li>
               <li><a href="#">Your Trips</a></li>
               <li role="separator" class="divider"></li>

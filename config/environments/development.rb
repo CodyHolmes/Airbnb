@@ -75,4 +75,17 @@ Rails.application.configure do
   #      :authentication => :plain,
   #      :enable_starttls_auto => true
   # }
+
+  # USE AWS FOR PAPERCLIP
+  # config.paperclip_defaults = {
+  #     storage: 's3',
+  #     path: ':class/:attachment/:id/:style/:filename',
+  #     s3_host_name: 's3-us-east-2.amazonaws.com',
+  #     s3_credentials: {
+  #       bucket: 'airpikachu-cody',
+  #       access_key_id: 'AKIAIGB53VHRRFECMKUA',
+  #       secret_access_key: '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',
+  #       s3_region: 'us-east-2'
+  #     }
+  # }
 end
