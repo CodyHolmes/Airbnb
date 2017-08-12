@@ -80,12 +80,12 @@ Rails.application.configure do
   # config.paperclip_defaults = {
   #     storage: 's3',
   #     path: ':class/:attachment/:id/:style/:filename',
-  #     s3_host_name: 's3-us-east-2.amazonaws.com',
+  #     s3_host_name: ENV["aws_s3_host_name"],
   #     s3_credentials: {
-  #       bucket: 'airpikachu-cody',
-  #       access_key_id: 'AKIAIGB53VHRRFECMKUA',
-  #       secret_access_key: '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',
-  #       s3_region: 'us-east-2'
+  #       bucket: ENV["aws_bucket"],
+  #       access_key_id: ENV["aws_access_key_id"],
+  #       secret_access_key: ENV["aws_secret_access_key"],
+  #       s3_region: ENV["aws_s3_region"]
   #     }
   # }
 end
