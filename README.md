@@ -1,24 +1,7 @@
-# README
+# AirPikachu
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An application similar to Airbnb with Ruby on Rails & React Native.
 
-Things you may want to cover:
+Course work from the "Build Airbnb with Ruby on Rails - Level 1" course on Code4Startup.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Link: https://code4startup.com/projects/build-airbnb-with-ruby-on-rails-level-1
