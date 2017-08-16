@@ -40,5 +40,18 @@
                 </div>
             <% end %>
         </div>
+        <br />
+
+        <h4>Reviews From Guests (<%= @guest_reviews.count %>)</h4>
+        <div class="row">
+            <%= render "reviews/guest_list"%>
+        </div>
+        <br />
+
+        <h4>Reviews From Hosts (<%= @host_reviews.count %>)</h4>
+        <div class="row">
+            <%= render "reviews/host_list"%>
+        </div>
+        <br />
     </div>
 </div>
