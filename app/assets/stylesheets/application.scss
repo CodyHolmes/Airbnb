@@ -312,3 +312,30 @@ a {
     font-size: 14px;
     padding-top: 10px;
 }
+
+// SEARCH
+#main {
+    height: 100%;
+    overflow: hidden;
+}
+
+#left {
+  padding: 10px 400px 10px 20px;
+  overflow: scroll;
+  height: 100%;
+}
+
+#right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 450px;
+  height: 100%;
+}
+
+.map_price {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #00A699;
+}
