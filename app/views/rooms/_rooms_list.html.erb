@@ -6,7 +6,16 @@
             </div>
             <div class="panel-body">
                 <%= link_to room.listing_name, room %>
+                $<%= room.price %> - <%= room.home_type %> - <%= pluralize(room.bed_room, "bed") %>
+                <div id="star_<%= room.id %>"></div> <%= pluralize(room.average_rating, "review") %>
             </div>
         </div>
     </div>
+    <script>
+        $('#star_<%= room.id %>').raty({
+            path: '/assets',
+            readOnly: true,
+            score: <%= room.average_rating %>
+        });
+    </script>
 <% end %>
